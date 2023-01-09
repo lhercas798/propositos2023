@@ -91,7 +91,7 @@ export const TaskList = () => (
                   className="secondary"
                   onClick={() => push({ tarea: "", complete: "" })}
                 >
-                  Añadir tarea
+                  Añadir Proposito
                 </button>
               </div>
             )}
