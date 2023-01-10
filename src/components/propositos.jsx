@@ -36,7 +36,7 @@ export const TaskList = () => (
               <div>
                 {values.tareas.length > 0 &&
                   values.tareas.map((tarea, index) => (
-                    <div key={index}>
+                    <div key={index} className="card-item">
                       <div>
                         <label htmlFor={`tareas.${index}.tarea`}>Proposito</label>
                         <Field
